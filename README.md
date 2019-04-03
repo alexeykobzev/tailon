@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/190997/42879022-6d5915fc-8a8f-11e8-8fe6-903c06bd52a9.png?raw=True" width="450px">
 </p>
 
-# Tailon [![Build Status](https://travis-ci.com/gvalkov/tailon.svg?branch=master)](https://travis-ci.com/gvalkov/tailon) [![GoDoc](https://godoc.org/github.com/gvalkov/tailon?status.svg)](https://godoc.org/github.com/gvalkov/tailon) [![Go Report Card](https://goreportcard.com/badge/github.com/gvalkov/tailon)](https://goreportcard.com/report/github.com/gvalkov/tailon) [![Apache License](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/gvalkov/tailon/blob/master/LICENSE) [![GitHub release](https://img.shields.io/github/release/gvalkov/tailon.svg)](https://github.com/gvalkov/tailon/releases)
+# Tailon [![Build Status](https://travis-ci.com/alexeykobzev/tailon.svg?branch=master)](https://travis-ci.com/alexeykobzev/tailon) [![GoDoc](https://godoc.org/github.com/alexeykobzev/tailon?status.svg)](https://godoc.org/github.com/alexeykobzev/tailon) [![Go Report Card](https://goreportcard.com/badge/github.com/alexeykobzev/tailon)](https://goreportcard.com/report/github.com/alexeykobzev/tailon) [![Apache License](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/alexeykobzev/tailon/blob/master/LICENSE) [![GitHub release](https://img.shields.io/github/release/alexeykobzev/tailon.svg)](https://github.com/alexeykobzev/tailon/releases)
 
 Tailon is a webapp for looking at and searching through files and streams. In a
 nutshell, it is a fancy web wrapper around the following commands:
@@ -25,13 +25,13 @@ What sets tailon apart from other similar projects is:
 Download a build for your platform from the [releases] page or install using `go get`:
 
 ```
-go get -u github.com/gvalkov/tailon
+go get -u github.com/alexeykobzev/tailon
 ```
 
 A docker image is also available:
 
 ```
-docker run --rm gvalkov/tailon --help
+docker run --rm alexeykobzev/tailon --help
 ```
 
 ## Usage
@@ -245,10 +245,10 @@ Tailon is released under the terms of the [Apache 2.0 License].
 
 
 [clarity]:   https://github.com/tobi/clarity
-[tailon]:    https://github.com/gvalkov/tailon-legacy
-[wtee]:      https://github.com/gvalkov/wtee
+[tailon]:    https://github.com/alexeykobzev/tailon-legacy
+[wtee]:      https://github.com/alexeykobzev/wtee
 [toml]:      https://github.com/toml-lang/toml
-[releases]:  https://github.com/gvalkov/tailon-next/releases
+[releases]:  https://github.com/alexeykobzev/tailon-next/releases
 [errorlog]:  http://www.psychogenic.com/en/products/Errorlog.php
 [log.io]:    http://logio.org/
 [rtail]:     http://rtail.org/

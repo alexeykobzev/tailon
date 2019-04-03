@@ -74,7 +74,7 @@ more configurability than the command-line interface.
   allow-download = true
 
   # Commands that will appear in the UI.
-  allow-commands = ["tail", "grep", "sed", "awk"]
+  allow-commands = ["tail", "grep", "grep -v", "sed", "awk"]
 
   # File, glob and dir filespecs are similar in principle to their
   # command-line counterparts.
@@ -110,6 +110,12 @@ const defaultTomlConfig = `
     stdin = "tail"
     action = ["awk", "--sandbox", "$script"]
     default = "{print $0; fflush()}"
+
+    # Change to 'vanilla' tailon: 'grep -v' command section was created
+    [commands."grep -v"]
+    stdin = "tail"
+    action = ["grep", "-v", "--text", "--line-buffered", "--color=never", "-e", "$script"]
+    default = "^$"
 `
 
 // CommandSpec defines a command that the server can execute.
